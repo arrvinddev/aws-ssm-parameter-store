@@ -6,7 +6,6 @@ parameters = [
     { name= "dev.frontend.shipping_url", value= "http://shipping-dev.robog.store:8080/"},
     {name="dev.catalogue.mongo_endpoint", value="mongodb-dev.robog.store"},
 
-    {name="dev.catalogue.mongo_endpoint", value="mongodb-dev.robog.store"},
     {name="dev.catalogue.mongo", value="MONGO=true"},
     {name="dev.catalogue.mongo_url", value="mongodb://mongodb-dev.arrvind.tech:27017/catalogue"}
 
