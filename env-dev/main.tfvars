@@ -15,7 +15,7 @@ parameters = [
 
     {name="dev.cart.catalogue_port", value="8080"},
     {name="dev.cart.redis_host", value="redis-dev.robog.store"},
-    {name="dev.cart.catalogue_port", value="catalogue-dev.robog.store"},
+    {name="dev.cart.catalogue_host", value="catalogue-dev.robog.store"},
 
     {name="dev.shipping.cart_endpoint", value="cart-dev.robog.store:8080"},
     {name="dev.shipping.db_host", value="mysql-dev.robog.store"},
