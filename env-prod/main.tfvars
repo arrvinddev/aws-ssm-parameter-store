@@ -6,10 +6,10 @@ parameters = [
     { name= "prod.frontend.shipping_url", value= "http://shipping-prod.robog.store:80/"},
    
     {name="prod.catalogue.mongo_endpoint", value="mongodb-prod.robog.store"},
-    {name="prod.catalogue.mongo", value="DOCUMENTDB=true"},
+    {name="prod.catalogue.documentdb", value="true"},
     
 
-    {name="prod.user.mongo", value="DOCUMENTDB=true"},
+    {name="prod.user.documentdb", value="true"},
     {name="prod.user.redis_host", value="elasticache-prod-elasticache.ppugfs.ng.0001.use1.cache.amazonaws.com"},
     {name="prod.user.mongo_endpoint", value="mongodb-prod.robog.store"},
 
