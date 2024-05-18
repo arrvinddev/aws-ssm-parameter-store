@@ -17,7 +17,7 @@ parameters = [
     {name="prod.cart.redis_host", value="elasticache-prod-elasticache.nieflx.0001.use1.cache.amazonaws.com"},
     {name="prod.cart.catalogue_host", value="catalogue"},
 
-    {name="prod.shipping.cart_endpoint", value="cart-prod.robog.store:80"},
+    {name="prod.shipping.cart_endpoint", value="cart:80"},
     {name="prod.rds.db_host", value="rds-prod-rds.cluster-c5mq8cysmv5n.us-east-1.rds.amazonaws.com"},
     {name="prod.shipping.db_user", value="root"},
     
