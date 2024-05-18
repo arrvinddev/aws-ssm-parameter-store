@@ -22,9 +22,9 @@ parameters = [
     {name="prod.shipping.db_user", value="root"},
     
 
-    {name="prod.payment.cart_host",value="cart-prod.robog.store"},
+    {name="prod.payment.cart_host",value="cart"},
     {name="prod.payment.cart_port",value="80"},
-    {name="prod.payment.user_host",value="user-prod.robog.store"},
+    {name="prod.payment.user_host",value="user-"},
     {name="prod.payment.user_port",value="80"},
     {name="prod.payment.amqp_host",value="rabbitmq-prod.robog.store"},
     {name="prod.payment.amqp_user",value="roboshop"},
